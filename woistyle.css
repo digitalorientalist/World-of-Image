@@ -36,16 +36,27 @@
     font-size: 20px;
 }
 
-.twoRow {
-    display: flex;
+.container{
+     text-align: center;
 }
 
-.column {
-    flex: 50%;
-    padding: 3%;
+.left-div{
+     display: inline-block;
+     max-width: 400px;
+     vertical-align: top;
+     padding: 2%;
 }
-.image{
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 4px;
+
+.right-div{
+     display: inline-block;
+     max-width: 400px;
+     padding: 2%;
+}
+
+@media screen and (max-width: 800px) 
+{
+     .left-div, .right-div
+     {
+          max-width: 100%;
+     }
 }
