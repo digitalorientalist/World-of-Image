@@ -20,7 +20,23 @@
     font-size: 20px;
     color: dimgrey;
 }
-.row {
+#arabicTitle{
+    margin: 0 auto;
+    max-width: auto;
+    text-align: center;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 20px;
+}
+
+.normalText{
+    margin: 0 auto;
+    max-width: 30%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.twoRow {
     display: flex;
 }
 
