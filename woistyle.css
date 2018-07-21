@@ -1,0 +1,22 @@
+#headSpace{
+    width: auto;
+    height: 30px;
+}
+#headTitle{
+    margin: 0 auto;
+    max-width: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+#subTitle{
+    margin: 0 auto;
+    max-width: auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: dimgrey;
+}
