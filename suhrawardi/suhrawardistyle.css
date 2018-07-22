@@ -148,22 +148,51 @@ body {
 }
 
 
-  #group1 {
-    z-index: 4; /* slide over group 2 */
-  }
+.scroll-container,
+.scroll-area {
+  max-width: auto;
+  height: 600px;
+  font-size: 60px;
+}
 
-  #group2 {
-    z-index: 3; /* slide under groups 1 and 3 */
-  }
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+}
+
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
 
 
 
-  #group3 {
-    z-index: 4; /* slide over group 2 and 4 */
-    background-color: white;
-  }
+.arrow {
+  text-align: center;
+  color: blanchedalmond;
   
+  margin: 8% 0;
+  fill: blanchedalmond;
+}
+.bounce {
+  fill: blanchedalmond;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
 
-  #group4 {
-    z-index: 5; /* slide under group 3 and 5 */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
   }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
