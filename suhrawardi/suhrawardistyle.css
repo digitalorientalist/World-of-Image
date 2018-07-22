@@ -1,5 +1,5 @@
 body {
-    background-image: url("WoIIbnArPersonOnlyBG.png");
+    background-image: url("Van_Lit_Cover_Image5.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -12,12 +12,12 @@ body {
 #headTitle{
     margin: 0 auto;
     max-width: auto;
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 60px;
     letter-spacing: 20px;
-    font-weight: bold;
+    color: goldenrod;
 }
 #subTitle{
     margin: 0 auto;
@@ -49,7 +49,15 @@ body {
 }
 
 .leftAligned{
-    text-align: left;
+    
+  text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: blanchedalmond;
+    max-width: 40%;
 }
 
 .container{
