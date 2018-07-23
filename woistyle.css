@@ -1,8 +1,10 @@
 body {
-    background-image: url("WoIIbnArPersonOnlyBG.png");
+  background-color: white;  
+  background-image: url("WoIIbnArPersonOnlyBG.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    background-blend-mode: luminosity;
 }
 
 #headSpace{
