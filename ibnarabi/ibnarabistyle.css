@@ -1,3 +1,4 @@
+@media only screen and (min-width: 760px) {
 .twocolumns {
     padding:10px;
      width:90%;
@@ -8,6 +9,7 @@
      column-count: 2;
      column-gap: 30px;
    }
+}
 
 #header {
     background-image: url("IbnArBanner.png");
