@@ -1,3 +1,3 @@
 # The World of Image...
 
-See the website at https://digitalorientalist.github.io/World-of-Image/
+See the website at https://lwcvl.github.io/World-of-Image/
